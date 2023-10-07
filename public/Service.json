@@ -1,5 +1,5 @@
-{
-    "services": [
+
+     [
         {
             "name": "Conferences and Seminars",
             "image": "https://i.ibb.co/GCZwHpj/pexels-rdne-stock-project-7648055.jpg",
@@ -49,4 +49,4 @@
             "button": "Nominate Now"
         }
     ]
-}
+

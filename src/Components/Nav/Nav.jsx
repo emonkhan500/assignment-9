@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <div className="navbar w-full px-36 mt-5 ">
+    <div className="navbar  container  mx-auto mb-9  px-36 mt-5 ">
       <div className="flex-1">
         <img src="https://i.ibb.co/GxLbkDy/Green-Bird-Creative-Business-Logo-Design-2-removebg-preview-1-1.png" alt="" />
       </div>
@@ -33,7 +33,7 @@ const Nav = () => {
                   : ""
               }
             >
-              SPEAKERS
+              TEAM
             </NavLink>
           </li>
           <li>

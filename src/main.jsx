@@ -9,8 +9,9 @@ import {
 } from "react-router-dom";
 import Root from './Components/Root/Root.jsx';
 import Home from './Components/Home/Home';
-import Speaker from './Components/Speaker/Speaker';
+
 import Photo from './Components/Photo/Photo';
+import Team from './Components/Teeam/Team';
 
 const router = createBrowserRouter([
   {
@@ -24,7 +25,7 @@ const router = createBrowserRouter([
       },
       {
         path:"/speakers",
-        element:<Speaker></Speaker>
+        element:<Team></Team>,
       },
       {
         path:"/photo",

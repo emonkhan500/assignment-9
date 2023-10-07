@@ -1,6 +1,6 @@
 
 
-const Speaker = () => {
+const Team = () => {
     return (
         <div>
             <h2>SPEAKERS HERE</h2>
@@ -8,4 +8,4 @@ const Speaker = () => {
     );
 };
 
-export default Speaker;
+export default Team;
