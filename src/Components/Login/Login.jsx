@@ -77,7 +77,7 @@ const Login = () => {
         </div>
         <div className="form-control mt-6">
                 
-                <button onClick={()=>{handleGoogleSignIn(googleSignIn)}} className="btn btn-primary" >sign in with Google</button>
+                <button onClick={()=>{handleGoogleSignIn(googleSignIn)}} className="btn btn-primary" >Login with Google</button>
               </div>
       </form>
       <p className='text-center'>NEW? <Link to="/register"><button className='btn btn-link' > Register</button></Link>  </p>
