@@ -9,16 +9,18 @@ import { useEffect } from "react";
 
 
 const Login = () => {
+  const location= useLocation()
+    // console.log('login location', location)
+    const navigate=useNavigate()
     useEffect(()=>{
         Aos.init({duration:2000})
     
     },[])
     const {googleSignIn,signIn}= useContext( AuthContext)
-    const location= useLocation()
-    const navigate=useNavigate()
+    
     const handleGoogleSignIn= (media)=>{
         media()
-        .then(res=>console.log(res.user))
+        .then(res=>{navigate(location?.state ? location.state : "/")})
         .catch( error=>console.error(error))
             }
     const handleLogin = e => {

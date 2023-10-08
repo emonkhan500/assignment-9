@@ -1,8 +1,11 @@
-# React + Vite
+# This is Corporate Event Management Website.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- This website provide six different corporate event management service.
 
-Currently, two official plugins are available:
+- this website offering three plan like 'Silver, Gold, Platinum'.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- User have to Login or Register before enter in private routes.
+
+- User can see some photos of our previous worked.
+
+- User can check details of any services by clicking details button
