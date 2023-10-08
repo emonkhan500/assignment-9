@@ -1,9 +1,7 @@
 import { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { AuthContext } from "../AuthProvider/AuthProvider";
-import Aos from "aos";
-import 'aos/dist/aos.css'
-import { useEffect } from "react";
+
 
 
 const Nav = () => {
@@ -14,13 +12,9 @@ const Nav = () => {
     .then()
     .catch()
   }
-  useEffect(()=>{
-        Aos.init({duration:2000})
-
-    },[])
-
+  
   return (
-    <div data-aos = "fade-left" className="navbar  container  mx-auto mb-9  px-36 mt-5 ">
+    <div  className="navbar  container  mx-auto mb-9  px-36 mt-5 ">
       <div className="flex-1">
         <img src="https://i.ibb.co/GxLbkDy/Green-Bird-Creative-Business-Logo-Design-2-removebg-preview-1-1.png" alt="" />
       </div>
