@@ -13,11 +13,11 @@ const Offer = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-8 my-9 px-4 py-3">
       <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
         <h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">
-          Standard plan
+          Silver plan
         </h5>
         <div class="flex items-baseline text-gray-900 dark:text-white">
           <span class="text-3xl font-semibold">$</span>
-          <span class="text-5xl font-extrabold tracking-tight">100</span>
+          <span class="text-5xl font-extrabold tracking-tight">900</span>
         </div>
         <ul role="list" class="space-y-5 my-7">
           <li class="flex space-x-3 items-center">
@@ -73,11 +73,11 @@ const Offer = () => {
       </div>
       <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
         <h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">
-          Standard plan
+          Gold plan
         </h5>
         <div class="flex items-baseline text-gray-900 dark:text-white">
           <span class="text-3xl font-semibold">$</span>
-          <span class="text-5xl font-extrabold tracking-tight">200</span>
+          <span class="text-5xl font-extrabold tracking-tight">1800</span>
         </div>
         <ul role="list" class="space-y-5 my-7">
           <li class="flex space-x-3 items-center">
@@ -133,11 +133,11 @@ const Offer = () => {
       </div>
       <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
         <h5 class="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">
-          Standard plan
+          Platinum plan
         </h5>
         <div class="flex items-baseline text-gray-900 dark:text-white">
           <span class="text-3xl font-semibold">$</span>
-          <span class="text-5xl font-extrabold tracking-tight">300</span>
+          <span class="text-5xl font-extrabold tracking-tight">3000</span>
         </div>
         <ul role="list" class="space-y-5 my-7">
           <li class="flex space-x-3 items-center">

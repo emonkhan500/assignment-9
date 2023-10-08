@@ -1,52 +1,52 @@
 
      [
-        {
+        {"id":"1",
             "name": "Conferences and Seminars",
             "image": "https://i.ibb.co/GCZwHpj/pexels-rdne-stock-project-7648055.jpg",
             "price": "$1000 - $5000",
             "short_description": "Engage with industry experts and thought leaders.",
             "full_description": "Our conference and seminar services provide a platform for meaningful discussions, knowledge sharing, and networking. We organize events that bring together industry experts and thought leaders to explore emerging trends, share insights, and foster collaborations. From planning and logistics to speaker management, we ensure your conference or seminar is a resounding success.",
-            "button": "Learn More"
+            "button": "Details"
         },
-        {
+        {"id":"2",
             "name": "Trade Shows and Expos",
             "image": "https://i.ibb.co/0jKWJGq/pexels-tima-miroshnichenko-7567426.jpg",
             "price": "$1500 - $8000",
             "short_description": "Connect with potential clients and partners.",
             "full_description": "Participate in trade shows and expos with our expert assistance. We help you showcase your products and services to a wider audience, enabling you to connect with potential clients, partners, and industry stakeholders. Our services cover booth design, promotional materials, lead generation, and post-event analysis, ensuring your participation is impactful and results-driven.",
-            "button": "Explore Exhibiting"
+            "button": "Details"
         },
-        {
+        {"id":"3",
             "name": "Team Building Workshops",
             "image": "https://i.ibb.co/wWyqv8t/pexels-sora-shimazaki-5668465.jpg",
             "price": "$500 - $3000",
             "short_description": "Boost team collaboration and morale.",
             "full_description": "Our team building workshops are designed to enhance collaboration, communication, and morale among your employees. Through interactive activities, games, and discussions, we facilitate a positive team environment. Whether you're looking to improve teamwork, leadership skills, or employee engagement, our workshops cater to diverse needs, fostering a stronger and more cohesive workforce.",
-            "button": "Book Now"
+            "button": "Details"
         },
-        {
+        {"id":"4",
             "name": "Product Launches",
             "image": "https://i.ibb.co/ZKv1WcQ/pexels-karolina-grabowska-4202325.jpg",
             "price": "$2000 - $10000",
             "short_description": "Captivate your audience with successful product launches.",
             "full_description": "Launch your new products with confidence and style. Our product launch services cover every aspect of planning and execution, from market research and branding to event logistics and media coverage. We create memorable launch events that captivate your audience, generate buzz, and drive sales. Let us handle the details while you focus on showcasing your innovative products to the world.",
-            "button": "Launch Event Packages"
+            "button": "Details"
         },
-        {
+        {"id":"5",
             "name": "Corporate Meetings",
             "image": "https://i.ibb.co/zFqynXL/pexels-rdne-stock-project-7648045.jpg",
             "price": "$500 - $2500",
             "short_description": "Host efficient corporate meetings in professional settings.",
             "full_description": "Ensure your corporate meetings are productive, efficient, and hassle-free. We provide fully equipped meeting spaces, technical support, catering, and logistics to facilitate seamless discussions and decision-making. Whether it's a board meeting, strategy session, or client presentation, our services ensure that your corporate meetings run smoothly, allowing you to focus on important business matters.",
-            "button": "Book Meeting Space"
+            "button": "Details"
         },
-        {
+        {"id":"6",
             "name": "Award Ceremonies",
             "image": "https://i.ibb.co/5YvpbJD/pexels-nataliya-vaitkevich-6120398.jpg",
             "price": "$1500 - $6000",
             "short_description": "Recognize achievements and honor excellence.",
             "full_description": "Celebrate achievements and honor excellence with our meticulously organized award ceremonies. From conceptualization and theme development to venue selection and awards production, we handle every detail. Our ceremonies are designed to create memorable experiences for attendees, honorees, and sponsors. Let us help you recognize outstanding accomplishments and create a prestigious event that leaves a lasting impression.",
-            "button": "Nominate Now"
+            "button": "Details"
         }
     ]
 

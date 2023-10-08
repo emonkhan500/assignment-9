@@ -12,6 +12,7 @@ import Home from './Components/Home/Home';
 
 import Photo from './Components/Photo/Photo';
 import Team from './Components/Teeam/Team';
+import ServiceDetails from './Components/Servise Details/ServiceDetails';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,11 @@ const router = createBrowserRouter([
         path:"/photo",
         element:<Photo></Photo>
         
+      },
+      {
+        path:"/details/:id",
+        element:<ServiceDetails></ServiceDetails>,
+        loader: ()=>fetch('../Service.json')
       }
     ]
   },
