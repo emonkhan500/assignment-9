@@ -3,10 +3,17 @@ import { Link, Navigate, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../AuthProvider/AuthProvider";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import Aos from "aos";
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 
 
 
 const Register = () => {
+    useEffect(()=>{
+        Aos.init({duration:2000})
+    
+    },[])
     const {googleSignIn,createUser}=useContext(AuthContext)
 const Navigate=useNavigate()
 const location=useLocation()
@@ -45,7 +52,7 @@ media()
             })
     }
     return (
-        <div className="hero min-h-screen bg-base-200">
+        <div data-aos = "flip-down" className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
           
           <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">

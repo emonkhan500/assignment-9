@@ -3,9 +3,16 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { AuthContext } from '../AuthProvider/AuthProvider';
+import Aos from "aos";
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 
 
 const Login = () => {
+    useEffect(()=>{
+        Aos.init({duration:2000})
+    
+    },[])
     const {googleSignIn,signIn}= useContext( AuthContext)
     const location= useLocation()
     const navigate=useNavigate()
@@ -45,7 +52,7 @@ const Login = () => {
             })
     }
     return (
-        <div className="hero min-h-screen bg-base-200">
+        <div data-aos = "flip-up" className="hero min-h-screen bg-base-200">
   <div className="hero-content flex-col lg:flex-row-reverse">
     
     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">

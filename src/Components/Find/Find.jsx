@@ -1,8 +1,17 @@
 import React from "react";
+import Aos from "aos";
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
+
 
 const Find = () => {
+  useEffect(()=>{
+    Aos.init({duration:2000})
+
+},[])
+
   return (
-    <div className="container mx-auto mt-24 bg-[#fff7ed]">
+    <div data-aos = "slide-left" className="container mx-auto mt-24 bg-[#fff7ed]">
       <h2 className="text-5xl font-bold text-center mt-3">FIND US</h2>
       <h2 className="text-3xl  text-center mt-6 italic">
         We Are Available 24/7

@@ -1,11 +1,21 @@
+import Aos from "aos";
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
+
+
 const Offer = () => {
+  useEffect(()=>{
+    Aos.init({duration:2000})
+
+},[])
+
     const style= {
         backgroundImage:"url(https://i.ibb.co/q0fxnKP/pexels-sora-shimazaki-5926239.jpg),linear-gradient(rgba(46,40,65,0.9),rgba(46,40,65,0.9)) ",
         backgroundSize:"cover",
         backgroundBlendMode: "overlay",
     }
   return (
-    <div className="container mx-auto lg:min-h-[600px]  flex flex-col  items-center mt-24 " style={style}>
+    <div data-aos = "slide-right" className="container mx-auto lg:min-h-[600px]  flex flex-col  items-center mt-24 " style={style}>
         
       <div>
         <h1 className="text-5xl text-center mt-14 font-bold text-white"> Our Offer</h1>

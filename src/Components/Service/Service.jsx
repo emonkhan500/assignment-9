@@ -1,9 +1,17 @@
 import { Link } from "react-router-dom";
+import Aos from "aos";
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 
 const Service = ({ service }) => {
     const {name,price  ,image,short_description,button ,id} = service;
+    useEffect(()=>{
+      Aos.init({duration:2000})
+
+  },[])
+
   
-  return <div className="card lg:h-96 bg-base-100 shadow-xl" >
+  return <div data-aos = "fade-up-right" className="card lg:h-96 bg-base-100 shadow-xl" >
 
 
   <figure className="px-10 pt-10">
