@@ -42,7 +42,7 @@ const Register = () => {
       .then((res) => {
         console.log(res.user);
         toast.success("Account created");
-        Navigate(location?.state ? location.state : "/");
+        navigate(location?.state ? location.state : "/");
       })
       .catch((err) => {
         console.error(err);
